@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.subspec 'ASIWebPageRequest' do |asiWebPageRequest|
 	  asiWebPageRequest.source_files = 'Classes/ASIWebPageRequest/*.{h,m}'
 	  asiWebPageRequest.libraries = 'xml2.2'
-	  asiWebPageRequest.xcconfig.HEADER_SEARCH_PATHS = '\"$(SDKROOT)/usr/include/libxml2\"'
+	  asiWebPageRequest.xcconfig = { "HEADER_SEARCH_PATHS" => "\"$(SDKROOT)/usr/include/libxml2\"" }
 	  asiWebPageRequest.dependency 'ASIHTTPRequest/Core'
   end
 
