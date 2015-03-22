@@ -26,10 +26,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |core|
     core.source_files = 'Classes/*.{h,m}'
-    core.ios.dependencies = ['Reachability']
-    core.ios.frameworks = ['MobileCoreServices','CFNetwork','CoreGraphics']
+    core.ios.dependencies = 'Reachability'
+    core.ios.frameworks = 'MobileCoreServices','CFNetwork','CoreGraphics'
     core.osx.exclude_files = '**/*ASIAuthenticationDialog*'
-    core.osx.frameworks = ['SystemConfiguration','CoreServices']
+    core.osx.frameworks = 'SystemConfiguration','CoreServices'
     core.libraries = 'z.1'
   end
 
