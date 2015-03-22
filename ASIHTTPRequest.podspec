@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   }
   
   s.license = "New BSD License"
-  s.requires_arc = 'false'
+  s.requires_arc = 'true'
   s.source_files = 'Classes'
 
   s.dependency 'Reachability'
