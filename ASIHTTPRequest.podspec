@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     using multipart/form-data.
   }
    
-  # s.requires_arc = 'false'
+  s.requires_arc = false
 
   s.subspec 'Core' do |core|
     core.source_files = 'Classes/*.{h,m}'
