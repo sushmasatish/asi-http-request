@@ -20,11 +20,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes'
 
-  # TODO actually I think one or some of these are for Reachability
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework SystemConfiguration ' \
-                                    '-framework CFNetwork ' \
-                                    '-framework MobileCoreServices ' \
-                                    '-l z.1' }
-
-  s.dependency 'Reachability', '~> 2.0'
+  s.dependency 'Reachability'
 end
