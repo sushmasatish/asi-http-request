@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Easy to use CFNetwork wrapper for HTTP requests, Objective-C, Mac OS X and iPhone'
   s.homepage = 'http://allseeing-i.com/ASIHTTPRequest'
   s.author   = { 'Sushma Satish' => 'sushmasatish@gmail.com' }
+  s.license = "New BSD License"
   s.source   = { :git => 'https://github.com/sushmasatish/asi-http-request.git', :tag => 'v1.0' }
 
   s.description = %{
@@ -17,9 +18,8 @@ Pod::Spec.new do |s|
     ASIFormDataRequest subclass makes it easy to submit POST data and files
     using multipart/form-data.
   }
-  
-  s.license = "New BSD License"
-  s.requires_arc = 'false'
+   
+  # s.requires_arc = 'false'
 
   s.subspec 'Core' do |core|
     core.source_files = 'Classes/*.{h,m}'
