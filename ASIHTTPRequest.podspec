@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'ASIHTTPRequest'
-  s.version  = '1.8.2'
+  s.version  = '1.0'
   s.summary  = 'Easy to use CFNetwork wrapper for HTTP requests, Objective-C, Mac OS X and iPhone'
   s.homepage = 'http://allseeing-i.com/ASIHTTPRequest'
   s.author   = { 'Ben Copsey' => 'ben@allseeing-i.com' }
@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
                                     '-framework MobileCoreServices ' \
                                     '-l z.1' }
 
-  s.dependency 'Reachability', '~> 2.0', '>= 2.0.4'
+  s.dependency 'Reachability', '~> 2.0'
 end
