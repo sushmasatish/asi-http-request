@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.homepage = 'http://allseeing-i.com/ASIHTTPRequest'
   s.author   = { 'Sushma Satish' => 'sushmasatish@gmail.com' }
   s.license = "New BSD License"
-  s.source   = { :git => 'https://github.com/sushmasatish/asi-http-request.git', :tag => 'v1.0' }
-
+  s.source   = { :git => 'https://github.com/sushmasatish/asi-http-request.git', :tag => '1.0' }
+ 
   s.description = %{
     ASIHTTPRequest is an easy to use wrapper around the CFNetwork API that
     makes some of the more tedious aspects of communicating with web servers
